@@ -14,7 +14,7 @@
 
 
 # Process to setup multi-regions HA wordpress
-    * Execute thes terraform create on two different regions (us-west-1 and ap-northeast-1)
+    * Execute the terraform script on two different regions (us-west-1 and ap-northeast-1)
     * Configure cloudfront (not part of this script yet) to serve static files in multi-regions.
     * Configure Active-Active database replication on the RDS.
     * Configure Route53 to server web requests based on geo location.
